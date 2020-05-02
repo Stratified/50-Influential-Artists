@@ -131,6 +131,7 @@ header nav #home {
 .artists-container {
   width: 80%;
   display: flex;
+  margin-left: 5vw;
 }
 .artists-container a {
   margin: auto;
