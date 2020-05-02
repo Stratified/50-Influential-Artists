@@ -1,4 +1,161 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-size: 2rem;
+  color: #494949;
+}
+header nav #home {
+  font-weight: bold;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+.title-container .imgText {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  font-size: 5rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-container img {
+  object-fit: cover;
+  width: 80vw;
+  height: 80vh;
+}
+.title-container a {
+  text-decoration: none;
+  font-weight: 50;
+  font-size: 1.8rem;
+  border: inset gray 1px;
+  background-color: white;
+  color: #494949;
+  border-radius: 5px;
+  padding: 1% 5%;
+}
+.artists-container {
+  width: 80%;
+  display: flex;
+}
+.artists-container a {
+  margin: auto;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #494949;
+  padding: 2%;
+}
+.artists-container img {
+  margin: auto;
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+}
+.artist {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.artist .bio1 {
+  width: 70%;
+  margin: auto;
+}
+.a2 {
+  margin-top: 0px;
+}
+hr {
+  margin: 3%;
+  width: 90%;
+}
