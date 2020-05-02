@@ -133,6 +133,11 @@ header nav #home {
   display: flex;
   margin-left: 5vw;
 }
+@media (max-width: 500px) {
+  .artists-container {
+    flex-direction: column;
+  }
+}
 .artists-container a {
   margin: auto;
   text-decoration: none;
@@ -146,15 +151,37 @@ header nav #home {
   height: 500px;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .artists-container img {
+    width: 100%;
+  }
+}
 .artist {
   margin: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .artist {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
 .artist .bio1 {
   width: 70%;
   margin: auto;
+}
+@media (max-width: 500px) {
+  .artist .bio1 {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .bio2 {
+    margin-bottom: 5%;
+  }
 }
 .a2 {
   margin-top: 0px;

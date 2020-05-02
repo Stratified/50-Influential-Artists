@@ -31,6 +31,10 @@
   display: flex;
   margin-left: 5vw;
 
+  @media @mobile {
+    flex-direction: column;
+  }
+
   a {
     margin: auto;
     text-decoration: none;
@@ -44,6 +48,10 @@
     width: 800px;
     height: 500px;
     border-radius: 10px;
+
+    @media @mobile {
+      width: 100%;
+    }
   }
 }
 .artist {
@@ -52,11 +60,27 @@
   flex-direction: column;
   text-align: center;
 
+  @media @mobile {
+    width: 100%;
+    margin-left: 5%;
+  }
+
   .bio1 {
     width: 70%;
     margin: auto;
+
+    @media @mobile {
+      width: 100%;
+      margin-bottom: 5%;
+    }
   }
 }
+.bio2 {
+  @media @mobile {
+    margin-bottom: 5%;
+  }
+}
+
 .a2 {
   margin-top: -0px;
 }
